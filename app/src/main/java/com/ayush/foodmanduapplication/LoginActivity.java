@@ -10,6 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ayush.foodmanduapplication.bll.LoginBLL;
@@ -17,9 +18,9 @@ import com.ayush.foodmanduapplication.strictmode.StrictModeClass;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button tvRegister;
+    TextView tvRegister;
     EditText etEmail,etPassword;
-    Button btnLogin;
+    Button btnLogin, btnFacebook, btnGmail;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -34,6 +35,8 @@ public class LoginActivity extends AppCompatActivity {
         etEmail=findViewById(R.id.etemail);
         etPassword=findViewById(R.id.etpassword);
         btnLogin=findViewById(R.id.btnlogin);
+        btnFacebook=findViewById(R.id.btnFacebook);
+        btnGmail=findViewById(R.id.btnGmail);
         tvRegister= findViewById(R.id.tvregister1);
 
         tvRegister.setOnClickListener(new View.OnClickListener() {

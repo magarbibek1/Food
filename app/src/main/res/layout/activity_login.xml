@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
     android:layout_marginLeft="20sp"
     android:layout_marginRight="20sp"
-    android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
     <TextView

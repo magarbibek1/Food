@@ -13,5 +13,5 @@
         android:layout_width="329dp"
         android:layout_height="251dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/food" />
+        app:srcCompat="@drawable/logo" />
 </LinearLayout>
